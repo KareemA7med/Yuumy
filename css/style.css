@@ -1,0 +1,87 @@
+body {
+    overflow: hidden;
+}
+
+.sideMenu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 20%;
+}
+.sideMenu ul{
+    list-style: none;
+}
+.sideMenu a{
+    text-decoration: none;
+    color: white !important;
+    cursor: pointer;
+}
+.sideMenu ul li {
+    margin: 30px 0;
+}
+#OpenCloseSide{
+    position: absolute;
+    top: 450%;
+}
+.icons .fa-globe {
+    position: absolute;
+    top: 900%;
+}
+.move {
+    position: absolute;
+    bottom: 15%;
+}
+.move a {
+    padding: 15px;
+    color: #212529;
+}
+.sideMenu p {
+    color: #999999;
+    position: absolute;
+    bottom: 1%;
+}
+
+.loading {
+    position: fixed;
+    inset: 0;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hoverItem {
+    transition: all 2s;
+}
+.recipe {
+    cursor: pointer;
+}
+.hoverItem {
+    position: absolute;
+    top:100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    opacity: .8;
+}
+.recipe:hover .hoverItem {
+    inset: 0;
+}
+.info h3 ,.info h4
+{
+    font-size: 18px;
+}
+.info span ,.info .tags ,.sora h2
+{
+    font-size: 22px;
+    font-weight: 700;
+}
+.info .btn-white
+{
+    color: black;
+    background-color: white;
+}
+.category h2, .category p
+{
+    font-weight: 700;
+}

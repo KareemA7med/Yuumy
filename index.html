@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>test</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+    <body>
+
+        <div class="sideMenu bg-danger h-100 row">
+            <div class="col-sm-9 bg-black sideMenuLeft position-relative">
+                <ul>
+                    <li class="wow bounceInUp" data-wow-duration="2s" data-wow-delay="s" ><a id="search">Search</a></li>
+                    <li class="wow bounceInUp" data-wow-duration="3s" data-wow-delay="s"><a id="categories">Categories</a></li>
+                    <li class="wow bounceInUp" data-wow-duration="3.5s" data-wow-delay="s"><a id="area">Area</a></li>
+                    <li class="wow bounceInUp" data-wow-duration="4s" data-wow-delay="s"><a id="ingredients" >Ingredients</a></li>
+                    <li class="wow bounceInUp" data-wow-duration="4.5s" data-wow-delay="s"><a id="contactUs" >Contact Us</a></li>
+                </ul>
+                <div class="move">
+                    <a href=""><i class="fab fa-facebook-f"></i></a> 
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fas fa-globe"></i></a>
+                </div>
+                <p>Kareem A7med 2022 © All Rights Reserved.</p>
+            </div>
+            <div class="col-sm-3 bg-white">
+                <img class="w-100 m-2" src="img/logo.png" alt="">
+                <div class="icons position-relative">
+                    <a><i id="OpenCloseSide"class="fa-solid fa-bars text-dark m-3 fa-2x"></i></a>
+                    <a href=""><i class="fas fa-globe m-3 text-dark"></i></a>
+                    <a href=""><i class="fas fa-share-alt m-3 text-dark"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container search d-none pb-5">
+            <div class="row bg-black pb-5 ">
+                <div class="col-lg-6 p-5">
+                    <input id="SearchByName" type="search" class="form-control mb-2 " placeholder="Search By Name">
+                </div>
+                <div class="col-lg-6 p-5">
+                    <input id="SearchByFirstLetter" maxlength="1" type="search" class="form-control mb-2 " placeholder="search By First Letter...">
+                </div>
+                <div id="displyBySerach" class="row p-5">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="loading bg-black">
+            <i class="fa fa-spinner fa-spin fa-5x text-white"></i>
+        </div>
+
+        <div class=" container-fluid ">
+            <div  class="row gy-5">
+                    <div id="dataDisply" class="row dataDisply ps-5 bg-black">
+                        <div id="recipesData" class="ps-5 itemm row gy-5">
+
+                        </div>
+                    </div>
+                    <div id="areaDisply" class="row ps-5 g-5 row bg-black">
+                        
+                    </div>
+            </div>
+        </div>
+
+        <div class="container contactUs d-none pb-5">
+            <div class="row bg-black pb-5 ">
+                <h3 class='text-white text-center'>Contac Us...</h3>
+                <div class="col-lg-6 p-5">
+                    <input id="SearchByName" type="text" class="form-control mb-2 " placeholder="Enter Your Name">
+                </div>
+                <div class="col-lg-6 p-5">
+                    <input id="SearchByName" type="email" class="form-control mb-2 " placeholder="Enter Email">
+                </div>
+                <div class="col-lg-6 p-5">
+                    <input id="SearchByName" type="number" class="form-control mb-2 " placeholder="Enter Your Phone">
+                </div>
+                <div class="col-lg-6 p-5">
+                    <input id="SearchByName" type="number" class="form-control mb-2 " placeholder="Enter Age">
+                </div>
+                <div class="col-lg-6 p-5">
+                    <input id="SearchByName" type="password" class="form-control mb-2 " placeholder="Enter password">
+                </div>
+                <div class="col-lg-6 p-5">
+                    <input id="SearchByName" type="password" class="form-control mb-2 " placeholder="Enter Re password">
+                </div>
+                <button class=" btn btn-dark text-danger m-auto w-25" type="submit">submit</button>
+            </div>
+        </div>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.6.1.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
